@@ -1,0 +1,32 @@
+.eList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    overflow-x: hidden; /* Enable horizontal scrolling */
+  }
+  
+  
+  .eListItem {
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  
+  .eListImg {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .eListTitles > h1 {
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .eListTitles > h2 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
