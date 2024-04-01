@@ -1,31 +1,49 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
 .header {
   background-color: #003580;
   color: white;
   display: flex;
   justify-content: center;
   position: relative;
+  
 }
 
 .headerContainer {
   width: 100%;
   max-width: 1024px;
-  margin: 20px 0px 100px 0px;
+  margin: 20px auto 100px auto; /* Center the container */
 }
 
 .headerContainer.listMode {
-  margin: 20px 0px 0px 0px;
+  margin-top: 20px; /* Adjust margin for list mode */
 }
 
 .headerList {
   display: flex;
   gap: 40px;
   margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
 }
 
 .headerListItem {
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .headerListItem.active {
@@ -48,18 +66,17 @@
 }
 
 .headerSearch {
-  height: 30px;
   background-color: white;
   border: 3px solid #febb02;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 10px 0px;
   border-radius: 5px;
-  position: absolute;
-  bottom: -25px;
-  width: 100%;
+  width: calc(100% - 40px); /* Adjusted width to consider padding */
   max-width: 1024px;
+  padding: 10px 0px; /* Padding added */
+  margin-top: 20px;
+  
+
 }
 
 .headerIcon {
@@ -70,11 +87,14 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  flex: 1; /* Take up available space */
 }
 
 .headerSearchInput {
   border: none;
   outline: none;
+  flex: 1; /* Take up remaining space */
+  padding: 8px; /* Adjusted padding */
 }
 
 .headerSearchText {
@@ -125,4 +145,19 @@
 
 .optionCounterButton:disabled {
   cursor: not-allowed;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .headerSearch {
+    flex-direction: column;
+    padding: 20px;
+    width: 100%; /* Full width for small screens */
+    border-radius: 0; /* Remove border radius for small screens */
+  }
+
+  .headerSearchItem {
+    margin-bottom: 10px;
+    width: 100%; /* Full width for small screens */
+  }
 }

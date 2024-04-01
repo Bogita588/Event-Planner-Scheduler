@@ -10,8 +10,8 @@ const Featured = () => {
           className="featuredImg"
         />
         <div className="featuredTitles">
-          <h1>Dublin</h1>
-          <h2>123 properties</h2>
+          <h1>Conference</h1>
+          <h2>Join the upcoming conference on technology trends</h2>
         </div>
       </div>
       
@@ -22,8 +22,8 @@ const Featured = () => {
           className="featuredImg"
         />
         <div className="featuredTitles">
-          <h1>Reno</h1>
-          <h2>533 properties</h2>
+          <h1>Music Concert</h1>
+          <h2>Experience live performances by top artists</h2>
         </div>
       </div>
       <div className="featuredItem">
@@ -33,10 +33,11 @@ const Featured = () => {
           className="featuredImg"
         />
         <div className="featuredTitles">
-          <h1>Austin</h1>
-          <h2>532 properties</h2>
+          <h1>Wedding</h1>
+          <h2>Celebrate love at the wedding of the year</h2>
         </div>
       </div>
+      {/* Add more featured items for other event types */}
     </div>
   );
 };
