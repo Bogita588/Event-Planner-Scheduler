@@ -20,11 +20,18 @@
 }
 
 .mailInputContainer>button{
-  height: 50px;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+ 
   background-color: #0071c2;
   color: white;
   font-weight: 500;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+button:hover{
+  background: #f15512;
 }
