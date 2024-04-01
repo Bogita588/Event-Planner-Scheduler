@@ -5,46 +5,31 @@ const Footer = () => {
     <div className="footer">
       <div className="fLists">
         <ul className="fList">
-          <li className="fListItem">Countries</li>
-          <li className="fListItem">Regions</li>
-          <li className="fListItem">Cities</li>
-          <li className="fListItem">Districts</li>
-          <li className="fListItem">Airports</li>
-          <li className="fListItem">Hotels</li>
+          <li className="fListItem">Events</li>
+          <li className="fListItem">Venues</li>
+          <li className="fListItem">Speakers</li>
+          <li className="fListItem">Agendas</li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Homes </li>
-          <li className="fListItem">Apartments </li>
-          <li className="fListItem">Resorts </li>
-          <li className="fListItem">Villas</li>
-          <li className="fListItem">Hostels</li>
-          <li className="fListItem">Guest houses</li>
+          <li className="fListItem">Attendees</li>
+          <li className="fListItem">Tickets</li>
+          <li className="fListItem">Sponsors</li>
+          <li className="fListItem">Exhibitors</li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Unique places to stay </li>
-          <li className="fListItem">Reviews</li>
-          <li className="fListItem">Unpacked: Travel articles </li>
-          <li className="fListItem">Travel communities </li>
-          <li className="fListItem">Seasonal and holiday deals </li>
+          <li className="fListItem">Event Planning</li>
+          <li className="fListItem">Event Management</li>
+          <li className="fListItem">Budgeting</li>
+          <li className="fListItem">Marketing</li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Car rental </li>
-          <li className="fListItem">Flight Finder</li>
-          <li className="fListItem">Restaurant reservations </li>
-          <li className="fListItem">Travel Agents </li>
-        </ul>
-        <ul className="fList">
-          <li className="fListItem">Curtomer Service</li>
-          <li className="fListItem">Partner Help</li>
-          <li className="fListItem">Careers</li>
-          <li className="fListItem">Sustainability</li>
-          <li className="fListItem">Press center</li>
-          <li className="fListItem">Safety Resource Center</li>
-          <li className="fListItem">Investor relations</li>
-          <li className="fListItem">Terms & conditions</li>
+          <li className="fListItem">Customer Support</li>
+          <li className="fListItem">Contact Us</li>
+          <li className="fListItem">Terms of Service</li>
+          <li className="fListItem">Privacy Policy</li>
         </ul>
       </div>
-      <div className="fText">Copyright © 2022 Lamabooking.</div>
+      <div className="fText">© 2024 Event Planner & Scheduler</div>
     </div>
   );
 };
