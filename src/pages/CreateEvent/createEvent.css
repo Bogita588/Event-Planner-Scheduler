@@ -1,0 +1,66 @@
+.create-event-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-event-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .create-event-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-event-container input,
+  .create-event-container textarea,
+  .create-event-container select,
+  .create-event-container button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .create-event-container input[type="file"] {
+    margin-bottom: 15px;
+  }
+  
+  .create-event-container label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .create-event-container button {
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .create-event-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .create-event-container textarea {
+    resize: vertical;
+  }
+  
+  @media (max-width: 768px) {
+    .create-event-container {
+      padding: 10px;
+    }
+  }
+  
