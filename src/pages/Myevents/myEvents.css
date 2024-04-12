@@ -1,0 +1,72 @@
+.my-events-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .my-events-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .event-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .event-details {
+    padding: 20px;
+  }
+  
+  .event-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .event-metadata {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .event-actions {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 10px;
+  }
+  
+  .event-action-button {
+    padding: 5px 10px;
+  
+    
+    border: none;
+    border-radius: 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .event-action-button:hover {
+    background-color: #0056b3;
+  }
+  
